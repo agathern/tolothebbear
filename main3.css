@@ -1,0 +1,82 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.color {
+  width: 100%;
+  height: 1024px;
+  background: rgba(198,197,241,1);
+  background: im;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.back{
+  color: rgba(255,255,255,1);
+  font-family: helvetica;
+}
+
+.next{
+  color: rgba(255,255,255,1);
+  font-family: helvetica;
+  width: 154
+  top:500px;
+  left: 500px;
+}
+
+.sight {
+  width: 154px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 388px;
+  left: 480px;
+  font-family: helvetica;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.smell {
+  width: 154px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 309px;
+  left: 990px;
+  font-family: helvetica;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.sound {
+  width: 177px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 101px;
+  left: 935px;
+  font-family: helvetica;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.tolo {
+width: 744px;
+    height: 820px;
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 116px;
+    left: 500px;
+}
+
+}
+
+

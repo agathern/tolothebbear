@@ -1,0 +1,39 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v12_4 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(198,197,241,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.tolothebear {
+  width: 566px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 121px;
+  left: 35px;
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 100px;
+  opacity: 1;
+  text-align: left;
+}
+.v15_2 {
+  width: 566px;
+  color: rgba(255,255,255,0.46000000834465027);
+  position: absolute;
+  top: 250px;
+  left: 35px;
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 69px;
+  opacity: 1;
+  text-align: left;
+}

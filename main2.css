@@ -1,0 +1,192 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+  background-color: rgba(198,197,241,1);
+}
+
+body {
+  color:white;
+  font-family: helvetica;
+  background-color: lavender;
+  font-size: 60px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.back {
+  font-size:30px;
+}
+
+/*.color {
+  width: 100%;
+  height: 1024px;
+  background: rgba(198,197,241,1);
+  background: lavender;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}*/
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.touch {
+  width: 154px;
+  color: white;
+  position: absolute;
+  top: 683px;
+  left: 468px;
+  font-family: helvetica;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.sight {
+    width: 154px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 38%;
+    left: 28%;
+    font-family: helvetica;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+
+.smell {
+    width: 154px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    right: 34%;
+    font-family: helvetica;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+
+.tolo {
+  width: 744px;
+    height: 820px;
+    background-image: url(../images/v2_0.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+/*    position: absolute;
+    top: 116px;
+    left: 500px;*/
+}
+
+a img { 
+    width: 177px;
+    display: none;
+}
+a:hover img{
+    display: block;
+    border: 0px;
+    border-radius: 50%;
+    width: 132px;
+    position: sticky;
+    z-index: 1;
+  }
+
+}
+.v12_4 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(198,197,241,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.tolothebear {
+  width: 566px;
+  color: rgba(255,255,255,1);
+  position: fixed;
+  top: 121px;
+  left: 35px;
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 100px;
+  opacity: 1;
+  text-align: left;
+}
+.v15_2 {
+  width: 566px;
+  color: rgba(255,255,255,0.46000000834465027);
+  position: absolute;
+  top: 250px;
+  left: 35px;
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 69px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.sound {
+  width: 177px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 101px;
+  left: 935px;
+  font-family: helvetica;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+    color: white;
+}
+
+.hover-image {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 100%;
+    radiu
+}
+
+.hover-image img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+}
